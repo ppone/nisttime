@@ -5,7 +5,7 @@ import (
 	"net"
 )
 
-const NIST_TIME_URL = "time.nist.gov:14"
+const NIST_TIME_URL = "time.nist.gov:13"
 const BYTESIZE = 52
 
 func TimeNowUTC() (string, error) {
